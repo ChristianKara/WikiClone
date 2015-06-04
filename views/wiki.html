@@ -1,0 +1,17 @@
+<!-- wiki.html -->
+{% extends "layout.html" %}
+ 
+{% block title %}WikiStack - About Us{% endblock %}
+ 
+{% block content %}
+<p>WIKI PAGE</p>
+
+
+{{pages|marked}}
+
+
+<form action='/wiki/{{ url_name }}/edit/' method="GET">
+<button type="submit" value="edit submit" class="btn btn-primary"> Edit Form</button>
+</form>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+body {
+ padding: 50px 0 20px 0;
+ font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+ color: #00B7FF ;
+}
+
+.content {
+    margin: 2em auto;
+}
+
+#footer {
+    margin-top: 4em;
+}
+
+.page-body {
+    margin-bottom: 3em;
+}

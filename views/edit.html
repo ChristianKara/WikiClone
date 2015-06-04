@@ -1,0 +1,22 @@
+
+{% extends "layout.html" %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+
+<form action='/edit/submit' method="POST">
+<h2>EDIT</h2>
+<br>
+Page title:<br>
+ <textarea name="title" class="form-control" rows="3">{{newTitle}}</textarea>
+<br>
+Page content:<br>
+ <textarea name="body" class="form-control" rows="3">{{body}}</textarea>
+ <br>
+
+ 
+ <button type="submit" value="Submit" class="btn btn-primary">Submit Form</button>
+</form>
+
+{% endblock %}
